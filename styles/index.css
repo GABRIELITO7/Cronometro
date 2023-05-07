@@ -1,0 +1,62 @@
+body
+{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 975px;
+    
+}
+
+.container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.titulo
+{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #55df43;
+}
+
+.visor 
+{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.botoes
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.botoes_designer
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: #55df43 solid 5px;
+    border-radius: 10px;
+    
+}
+
+.botoes_designer:hover
+{
+    background-color: rgb(36, 34, 34);
+}
