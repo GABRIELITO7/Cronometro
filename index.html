@@ -12,15 +12,12 @@
 <div class="container">
     <h1 class="titulo">Cronômetro</h1>
     <div class="visor">
-        <span>00</span>
-        <span>:</span>
-        <span>00</span>
-        <span>:</span>
-        <span>00</span>
+        <span id="horas">00</span>:<span id="minutos">00</span>:<span id="segundos">00</span>:<span id="milisegundos">000</span>
     </div>
     <div class="botoes">
-        <button class="botoes_designer">Iniciar</button>
-        <button class="botoes_designer">Resetar</button>
+        <button class="botoes_designer" type="button" id="start" onclick="start()">iniciar</button>
+        <button class="botoes_designer" type="button" id="pause" onclick="pause()">pausar</button>
+        <button class="botoes_designer" type="button" onclick="reset()" id="reset">resetar</button>
     </div>
 </div>
     <script src="index.js"></script>
